@@ -249,6 +249,7 @@ footer .container p{
 header{
     position: fixed;
     width: 100%;
+    grid-area: auto;
 }    
 header .container{
 flex-direction: row;
