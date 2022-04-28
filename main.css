@@ -242,8 +242,8 @@ footer .container p{
 /*----------------------Vista-Escritorio-------------------------*/
 @media (min-width: 700px){
       
-header{
-    /*position: fixed,*/
+header .idx{
+    position: fixed;
     width: 100%;
 }    
 header .container{
