@@ -42,6 +42,7 @@ button:hover{
 }
 header{
     background-color: #f7f7f7;
+    position: fixed;
 }
 header .logo{
     margin-bottom: 0;
