@@ -243,7 +243,7 @@ footer .container p{
 @media (min-width: 700px){
       
 header .idx{
-    position: fixed;
+   /* position: fixed;*/ 
     width: 100%;
 }    
 header .container{
