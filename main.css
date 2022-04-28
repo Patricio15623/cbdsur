@@ -239,17 +239,12 @@ footer .container p{
 
 }
 
-
-
-
-
 /*----------------------Vista-Escritorio-------------------------*/
 @media (min-width: 700px){
       
 header{
     position: fixed;
     width: 100%;
-    grid-area: auto;
 }    
 header .container{
 flex-direction: row;
