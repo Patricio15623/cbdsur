@@ -14,7 +14,8 @@ body{
 }
 
 h1{font-size: 3.5em}
-h2{font-size: 2.7em;}
+h2{font-size: 2.7em;
+padding-top: 20px;}
 h3{font-size: 2em;}
 p{font-size: 1.25em;
 padding: 1.2em;}
@@ -162,25 +163,16 @@ header a:hover{
 #propiedades h3{
     color: #9c4242;
 }
+#propiedades h2{
+    color: #4c7eb8;
+}
 #propiedades .container{
     margin-top: 10px;
     margin-bottom: 5px;
     border-top: 1px solid #2aaaff;
-    border-bottom: 1px solid #2aaaff;
+    border-bottom: 1px solid #2aaaff;  
 }
-footer .container{
-    background-color: #000000d5;
-    color: #ffffff;
-    height: 50px;
-    width: 100%;
-}
-
-footer .container p{
-    padding-top: 10px;
-}
-
 /*------------------Pagina-Productos---------------------------*/
-
 .contenido{
     display: grid;
     gap: 1rem;
@@ -242,7 +234,7 @@ footer .container p{
 /*----------------------Vista-Escritorio-------------------------*/
 @media (min-width: 700px){
       
-header .idx{
+header {
    /* position: fixed;*/ 
     width: 100%;
 }    
@@ -280,12 +272,7 @@ background-position-y: 0;
 background-color:#222324;
 justify-items: center;
 }
-  
- 
- 
 }
-
-
 
 
 
