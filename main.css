@@ -12,9 +12,13 @@ body{
   text-align: center; 
   background-color: #fdfdfd;
 }
+.logo{
+    font-family: "josefin sans", sans-serif;
+}
 
-h1{font-size: 3.5em}
+h1{font-size: 3.5em;}
 h2{font-size: 2.7em;
+    font-family: "josefin sans",sans-serif;
 padding-top: 20px;}
 h3{font-size: 2em;}
 p{font-size: 1.25em;
@@ -60,7 +64,6 @@ header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 25px;
     font-family: "roboto", sans-serif;
 }
 header a{
@@ -92,6 +95,7 @@ header a:hover{
 }
 #hero h1{
     color: #ffffff;
+    padding-bottom: 10px;
 }
 /*---------------------Quienes Somos-----------------------*/
 #somoscbdsur .container{
@@ -110,6 +114,11 @@ header a:hover{
     color: #9c4242;
 }   
 /*-----------------------Productos-------------------------*/
+.h1productos{
+    font-family: "josefin sans", Helvetica, sans-serif ;
+    font-size: 5em;
+}
+
 #nuestros-productos{
     background-color: #000000d5;
     color: #ffffff;
@@ -186,9 +195,9 @@ header a:hover{
     width: 100%;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:200 px;
     row-gap: 5em;
     padding: 20px;
+    margin-bottom: 15px;
   }
 .contenido img{
     width: 80%;
@@ -200,16 +209,22 @@ header a:hover{
     place-items: center;
     justify-content: center;
 }
+
 .contenido h2{
     margin: 0;
     font-size: 2em;
+    font-family: "noto serif", sans-serif;
 }
 .contenido h3{
     margin: 0;
+    font-family: "noto serif", sans-serif;
 }
 .contenido p{
     margin: 0;
 }
+ 
+
+
 @media only screen and (max-width: 720px){
     .contenido{
         display: grid;
@@ -232,7 +247,7 @@ header a:hover{
 }
 
 /*----------------------Vista-Escritorio-------------------------*/
-@media (min-width: 700px){
+@media only screen and (min-width: 720px){
       
 header {
    /* position: fixed;*/ 
