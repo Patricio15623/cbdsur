@@ -174,7 +174,16 @@ header a:hover{
 #propiedades h2{
     color: #4c7eb8;
 }
+#propiedades p{
+    text-align: justify;
+}
+#propiedades img{
+    float: left;
+    margin-right: 15px;
+    width: 250px;
+}
 #propiedades .container{
+    max-width: 1000px;
     margin-top: 20px;
     margin-bottom: 5px;
 }
