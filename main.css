@@ -181,7 +181,7 @@ header a:hover{
 #propiedades .container img{
     float: left;
     margin-right: 15px;
-    width: 384px;
+    width: 48%;
     border-radius: 10px;
 }
 #propiedades .container{
