@@ -108,6 +108,7 @@ header a:hover{
 }
 #somoscbdsur h2{
     color: #4c7eb8;
+    padding-top: 30px;
 }
 #somoscbdsur h3{
     color: #9c4242;
@@ -173,11 +174,10 @@ header a:hover{
 }
 #propiedades h2{
     color: #4c7eb8;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 #propiedades p{
     text-align: initial;
-    font-size: 15px;
 }
 #propiedades .container img{
     float: left;
