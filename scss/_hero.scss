@@ -1,0 +1,23 @@
+/*-----------------Hero---------------*/
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #ffffff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url(../pages/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ h1{
+    color: #ffffff;
+    padding-bottom: 10px;}
+}
+/*----------------Hero----------------------*/
