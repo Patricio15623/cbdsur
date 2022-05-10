@@ -28,7 +28,7 @@ header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f8f7f7;
   border-bottom: 0.5px solid #bfbcbc; }
 
 header nav {
@@ -38,7 +38,7 @@ header nav {
   font-family: "montserrat", sans-serif; }
 
 header a {
-  padding: 5px;
+  padding: 5px 10px 5px 10px;
   text-decoration: none;
   font-weight: bold;
   color: #000000; }
@@ -54,7 +54,7 @@ body {
   font-family: "open sans" , sans-serif;
   margin: 0;
   text-align: center;
-  background-color: #ffffff; }
+  background-color: #f8f7f7; }
   body h1 {
     font-size: 3.5em; }
   body h2 {
