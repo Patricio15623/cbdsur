@@ -177,7 +177,8 @@ button {
     text-align: center;
     width: 600px;
     padding-bottom: 30px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    margin: 10px; }
   @media only screen and (max-width: 768px) {
     .container-flor {
       width: auto;
