@@ -239,18 +239,17 @@ button {
   justify-content: center;
   align-items: center;
   padding: 100px 40px; }
-
-.login:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #f8f7f7;
-  background-size: cover;
-  filter: blur(50px);
-  z-index: -1; }
+  .login:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #f8f7f7;
+    background-size: cover;
+    filter: blur(50px);
+    z-index: -1; }
 
 .contact-box {
   max-width: 850px;
@@ -274,17 +273,16 @@ button {
   position: relative;
   padding: 0 0 10px;
   margin-bottom: 10px; }
-
-.h2-contact:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 50px;
-  border-radius: 2px;
-  background-color: #2abcff; }
+  .h2-contact:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2abcff; }
 
 .field {
   width: 100%;
@@ -295,9 +293,11 @@ button {
   font-size: 1.1rem;
   margin-bottom: 22px;
   transition: .3s; }
-
-.field:hover {
-  background-color: rgba(0, 0, 0, 0.1); }
+  .field:hover {
+    background-color: rgba(0, 0, 0, 0.1); }
+  .field:focus {
+    border: 2px solid #2abcff;
+    background-color: #fff; }
 
 textarea {
   min-height: 150px; }
@@ -312,14 +312,9 @@ textarea {
   outline: none;
   cursor: pointer;
   transition: .3s; }
-
-.btn:hover {
-  background-color: #4c7eb8;
-  color: #fff; }
-
-.field:focus {
-  border: 2px solid #2abcff;
-  background-color: #fff; }
+  .btn:hover {
+    background-color: #4c7eb8;
+    color: #fff; }
 
 @media screen and (max-width: 880px) {
   .contact-box {
