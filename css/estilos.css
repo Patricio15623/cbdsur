@@ -65,6 +65,8 @@ body {
     font-size: 1.8em;
     font-size: 1.25em;
     padding: 1em; }
+  body .color-acento {
+    color: #4c7eb8; }
 
 button {
   font-size: 1.5em;
@@ -81,8 +83,6 @@ button {
 .container {
   max-width: 1400px;
   margin: auto; }
-  .container .color-acento {
-    color: #4c7eb8; }
 
 /*---------------------Quienes Somos-----------------------*/
 #somoscbdsur {
@@ -167,8 +167,6 @@ button {
   width: 600px;
   position: relative;
   margin: auto; }
-  .container-flor h2 {
-    color: #9c4242; }
   .container-flor img {
     padding-top: 20px;
     padding-bottom: 20px; }

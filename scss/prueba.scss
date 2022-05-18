@@ -2,7 +2,8 @@
 @import "hero";
 @import "header"; 
 
-html{scroll-behavior: smooth;}  
+html{scroll-behavior: smooth;} 
+
 
 body{
     font-family: "open sans" , sans-serif;
@@ -16,6 +17,8 @@ body{
  h3{font-size: 1.8em;
     font-size: 1.25em;
     padding: 1em;}
+    .color-acento{
+        color: $color-hover-Btm;}
    }
 
 button{
@@ -34,8 +37,6 @@ button{
 .container{
     max-width: 1400px;
     margin: auto;
-.color-acento{
-    color: #4c7eb8;}
 }
 /*---------------------Quienes Somos-----------------------*/
 #somoscbdsur {
@@ -115,7 +116,7 @@ h3{
     color: #9c4242;
 }
 h2{
-    color: #4c7eb8;
+    color:  #4c7eb8;
     padding-top: 30px;
 }
 p{
@@ -149,10 +150,6 @@ width: 500px;
     width: 600px;
     position: relative;
     margin: auto;
-
-    h2{
-        color:#9c4242
-    }
     
     img{
         padding-top: 20px;
