@@ -151,19 +151,44 @@ button {
   #propiedades .container img {
     float: left;
     margin-right: 15px;
-    width: 35%;
-    border-radius: 10px; }
+    width: 35%; }
 
 #propiedades .df-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  border-radius: 10px; }
+  width: auto; }
 
 #propiedades .df-p {
   text-align: center;
   width: 500px; }
+
+.container-flor {
+  width: 600px;
+  position: relative;
+  margin: auto; }
+  .container-flor h2 {
+    color: #9c4242; }
+  .container-flor img {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .container-flor p {
+    position: relative;
+    text-align: center;
+    width: 600px;
+    padding-bottom: 30px;
+    padding-top: 20px; }
+  @media only screen and (max-width: 768px) {
+    .container-flor {
+      width: auto;
+      position: relative;
+      margin: auto; } }
+  .container-flor p {
+    position: relative;
+    text-align: center;
+    width: auto;
+    padding-bottom: 30px;
+    padding-top: 20px; }
 
 /*------------------Pagina-Productos---------------------------*/
 .np {

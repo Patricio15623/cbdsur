@@ -132,7 +132,6 @@ p{
         float: left;
         margin-right: 15px;
         width: 35%;
-        border-radius: 10px;
     }
 }
 .df-img{
@@ -140,12 +139,46 @@ p{
     justify-content: center;
     align-items: center;
     width: auto;
-    border-radius: 10px;
 }
 .df-p{
 text-align: center;
 width: 500px;
 }
+}
+.container-flor{
+    width: 600px;
+    position: relative;
+    margin: auto;
+
+    h2{
+        color:#9c4242
+    }
+    
+    img{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    p{
+        position: relative;
+        text-align: center;
+        width: 600px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+@media only screen and (max-width: 768px)
+    {width: auto;
+    position: relative;
+    margin: auto;
+    }
+    p{
+        position: relative;
+        text-align: center;
+        width: auto;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
 }
 /*------------------Pagina-Productos---------------------------*/
 .np{
