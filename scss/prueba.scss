@@ -2,6 +2,14 @@
 @import "hero";
 @import "header"; 
 
+//Mixin//
+@mixin prueba{
+    width: 100vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
 html{scroll-behavior: smooth;} 
 
 
@@ -125,10 +133,7 @@ p{
     font-size: 15px;
 }
 .container{
-    width: 100vw;
-    max-width: 1000px;
-    min-width: 320px;
-    margin: auto;
+   @include prueba;
 
     img{
         float: left;
